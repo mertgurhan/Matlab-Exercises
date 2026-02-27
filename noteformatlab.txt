@@ -1,0 +1,19 @@
+current directory tüm dosylaarı buraya at
+figure penceresi 
+>>>matlabda grafikler olulturmak oldukça kolaydır
+şekiller oluşturulduğunda yeni pencere oluşturur
+
+
+
+
+C ->
+Public int(int a,int b){
+
+İnt sayi1,sayi2,sonuc;
+sayi1=a;
+sayi2=b;
+sonuc=sayi1+sayi2;
+Return sonuc;
+
+}
+4/3pr^3
