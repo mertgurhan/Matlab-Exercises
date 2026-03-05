@@ -1,0 +1,1 @@
+(toplam, carpim) = hesapla(5,2,4)
