@@ -1,0 +1,76 @@
+a=[1 2 3];b=[4 5 6];
+c=conv(a,b)
+
+c =
+
+       4             13             28             27             18       
+
+[q,r]=deconv(c,a)
+
+q =
+
+       4              5              6       
+
+
+r =
+
+       0              0              0              0              0       
+
+       fix(4.8)
+floor(4.8)
+ceil(4.8)
+fix(-4.8) %noktadan sonrasını görmezden geliyor
+floor(-4.8)
+ceil(-4.8)
+
+ans =
+
+       4       
+
+
+ans =
+
+       4       
+
+
+ans =
+
+       5       
+
+
+ans =
+
+      -4       
+
+
+ans =
+
+      -5       
+
+
+ans =
+
+      -4       
+
+
+      x=[1 5 4];
+max(x)
+
+ans =
+
+       5       
+
+x=[1 5 6 3;2 3 5 6]
+
+x =
+
+       1              5              6              3       
+       2              3              5              6       
+
+max(x)
+
+ans =
+
+       2              5              6              6       
+
+

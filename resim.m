@@ -1,0 +1,24 @@
+a=[1 2 3];b=[4 5 6];
+c=conv(a,b)
+
+c =
+
+       4             13             28             27             18       
+
+[q,r]=deconv(c,a)
+
+q =
+
+       4              5              6       
+
+
+r =
+
+       0              0              0              0              0       
+
+fix(4.8)
+floor(4.8)
+ceil(4.8)
+fix(-4.8) %noktadan sonrasını görmezden geliyor
+floor(-4.8)
+ceil(-4.8)
