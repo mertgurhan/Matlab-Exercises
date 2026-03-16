@@ -11,7 +11,7 @@ mu_sag_acik = max(0, min(1, (x - 50) / (80 - 50)));
 
 figure;
 plot(x,mu_sol_acik,"r","LineWidth",2);hold on;
-plot(y,mu_sag_acik,"b","LineWidth",2);hold on;
+plot(x,mu_sag_acik,"b","LineWidth",2);hold on;
 grid on;
 ylim
 
