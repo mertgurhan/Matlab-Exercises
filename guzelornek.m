@@ -1,0 +1,17 @@
+x=[-2:0.2:0];
+y=[-2:0.2:2];
+[X,Y]=meshgrid(x,y);
+Z=X.*exp(-X.^2-Y.^2);
+subplot(2,2,1);
+mesh(X,Y,Z);
+title("Mesh Plot"); xlabel("x-axis"); ylabel("y-axis"); zlabel("z-axis");
+subplot(2,2,2);
+surf(X,Y,Z);
+title("Surface Plot"); xlabel("x-axis"); ylabel("y-axis"); zlabel("z-axis");
+subplot(2,2,3);
+contour(X,Y,Z);
+title("Contour Plot"); xlabel("x-axis"); ylabel("y-axis"); zlabel("z-axis");
+subplot(2,2,4);
+surfc(X,Y,Z);
+xlabel("x-axis"); ylabel("y-axis");
+title("Combination Surface and Contour Plot");

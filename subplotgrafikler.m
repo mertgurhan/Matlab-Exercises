@@ -1,0 +1,18 @@
+    x=0:0.5:50;
+    y=5*x.^2;
+    subplot(2,2,1);
+    plot(x,y);
+    title("Polynomial-Lineer/lineer");
+    ylabel("y"); grid;
+    subplot(2,2,2);
+    semilogx(x,y);
+    title("Polynomial-log/Lineer");
+    ylabel("y"); grid on;
+    subplot(2,2,3);
+    semilogy(x,y);
+    title("Polynomial- Lineer/log");
+    xlabel("x"); ylabel("y"); grid on;
+    subplot(2,2,4);
+    loglog(x,y);
+    title("Polynomial-log/log");
+    xlabel("x"); ylabel("y"); grid on;
